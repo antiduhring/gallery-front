@@ -1,3 +1,5 @@
 export function getServerUrl() {
-    return process.env.SERVER_URL || "SERVER URL"
+    return SERVER_URL
 }
+
+export const SERVER_URL = process.env.SERVER_URL || "SERVER URL"
